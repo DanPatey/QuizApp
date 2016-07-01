@@ -43,13 +43,21 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jgc-Df-vXK">
+                                <rect key="frame" x="279" y="20" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Jgc-Df-vXK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8A2-7c-jIR"/>
                             <constraint firstItem="GQI-mW-P7I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E4h-cz-DYg"/>
                             <constraint firstItem="4ft-Pn-zkb" firstAttribute="top" secondItem="H9f-AD-VMm" secondAttribute="bottom" constant="23" id="LUq-Rs-bu1"/>
                             <constraint firstItem="H9f-AD-VMm" firstAttribute="centerX" secondItem="U5x-EQ-jl7" secondAttribute="centerX" id="fBF-F6-tIX"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4ft-Pn-zkb" secondAttribute="bottom" constant="104" id="mj2-5x-Uwg"/>
+                            <constraint firstItem="Jgc-Df-vXK" firstAttribute="top" secondItem="GQI-mW-P7I" secondAttribute="top" id="pQa-sb-8Cf"/>
                             <constraint firstItem="4ft-Pn-zkb" firstAttribute="centerX" secondItem="U5x-EQ-jl7" secondAttribute="centerX" id="pgT-Tj-AyH"/>
                             <constraint firstItem="GQI-mW-P7I" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rW2-Op-cWd"/>
                             <constraint firstItem="U5x-EQ-jl7" firstAttribute="top" secondItem="GQI-mW-P7I" secondAttribute="bottom" constant="25" id="uJV-lW-EFD"/>
@@ -58,7 +66,10 @@
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="H9f-AD-VMm" id="Q2N-cG-tqN"/>
-                        <outlet property="questionLabel" destination="GQI-mW-P7I" id="nCH-Nm-zV1"/>
+                        <outlet property="currentQuestionLabel" destination="GQI-mW-P7I" id="yTb-vd-th3"/>
+                        <outlet property="currentQuestionLabelCenterXConstraint" destination="E4h-cz-DYg" id="cSo-hX-I0h"/>
+                        <outlet property="nextQuestionLabel" destination="Jgc-Df-vXK" id="eBx-EA-Gj6"/>
+                        <outlet property="nextQuestionLabelCenterXConstraint" destination="8A2-7c-jIR" id="ETw-Cp-XFk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
