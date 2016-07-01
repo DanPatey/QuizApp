@@ -60,16 +60,16 @@
                             <constraint firstItem="Jgc-Df-vXK" firstAttribute="top" secondItem="GQI-mW-P7I" secondAttribute="top" id="pQa-sb-8Cf"/>
                             <constraint firstItem="4ft-Pn-zkb" firstAttribute="centerX" secondItem="U5x-EQ-jl7" secondAttribute="centerX" id="pgT-Tj-AyH"/>
                             <constraint firstItem="GQI-mW-P7I" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rW2-Op-cWd"/>
+                            <constraint firstItem="U5x-EQ-jl7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tjA-73-C56"/>
                             <constraint firstItem="U5x-EQ-jl7" firstAttribute="top" secondItem="GQI-mW-P7I" secondAttribute="bottom" constant="25" id="uJV-lW-EFD"/>
-                            <constraint firstItem="GQI-mW-P7I" firstAttribute="centerX" secondItem="U5x-EQ-jl7" secondAttribute="centerX" id="yCd-yV-Sjm"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="H9f-AD-VMm" id="Q2N-cG-tqN"/>
                         <outlet property="currentQuestionLabel" destination="GQI-mW-P7I" id="yTb-vd-th3"/>
-                        <outlet property="currentQuestionLabelCenterXConstraint" destination="E4h-cz-DYg" id="cSo-hX-I0h"/>
+                        <outlet property="currentQuestionLabelCenterXConstraint" destination="E4h-cz-DYg" id="sBB-U3-y9q"/>
                         <outlet property="nextQuestionLabel" destination="Jgc-Df-vXK" id="eBx-EA-Gj6"/>
-                        <outlet property="nextQuestionLabelCenterXConstraint" destination="8A2-7c-jIR" id="ETw-Cp-XFk"/>
+                        <outlet property="nextQuestionLabelCenterXConstraint" destination="8A2-7c-jIR" id="SN7-Qp-jxD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
